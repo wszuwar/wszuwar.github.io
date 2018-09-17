@@ -1,8 +1,8 @@
 $(document).ready(function() {
-    // const apiRoot = 'https://young-journey-52503.herokuapp.com/v1/task/';
-    // const trelloApiRoot = 'https://young-journey-52503.herokuapp.com/v1/trello/';
-    const apiRoot = 'http://localhost:8080/v1/';
-    const trelloApiRoot = 'http://localhost:8080/v1/trello/';
+    const apiRoot = 'https://young-journey-52503.herokuapp.com/v1/';
+    const trelloApiRoot = 'https://young-journey-52503.herokuapp.com/v1/trello/';
+    // const apiRoot = 'http://localhost:8080/v1/';
+    // const trelloApiRoot = 'http://localhost:8080/v1/trello/';
     const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
     const $tasksContainer = $('[data-tasks-container]');
 
